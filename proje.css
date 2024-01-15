@@ -1,0 +1,342 @@
+.liste{
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+
+}
+.renkvekartkter1{
+
+    padding: 5px 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 6px;
+}
+
+.link{
+    text-decoration: none; 
+    color: white;
+}
+
+.yanyana{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.açılırmenu{
+    display: none;
+    position: absolute;
+    
+}
+li:hover .açılırmenu{
+    display: block;
+}
+.nomore{
+    list-style-type: none; 
+    left: 50; 
+    
+}
+.üstsiyah{
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.düzen{
+    display: flex;
+}
+
+.altsiyah{
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+.açıklama  {
+
+    color: rgb(234, 234, 234);
+    padding: 2px;
+    
+
+
+}
+
+.kayanyazi{
+    overflow: hidden
+    
+}
+
+.kayanyazi{
+    animation: kayanYazi 12s linear infinite;
+ 
+}
+
+@keyframes kayanYazi {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+.link2{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+.merhaba{
+    background-color: #bbf6fb;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    
+    
+}
+    
+ h1{
+    color: red;
+ }
+
+ .resim-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.resim {
+    width: 333px;
+    height: 175px;
+    margin-bottom: 10px; 
+    padding-top: 100px;
+    border-radius: 6px;
+    border-top: 6px;
+   
+}
+
+.linkextra{
+    text-decoration: none;
+    color: black;
+}
+
+.yazi {
+    text-align: center;
+}
+.resim2{
+    width: 333px;
+    height: 175px;
+    margin-bottom: 10px; 
+    padding-top: 20px;
+}
+.kralhaber{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    
+
+}
+.megatronsarı{
+    position: fixed;
+    background-image: url(resimss\indir.png);
+    height: 300px;
+    width: 300px;
+}
+.yazıayarlama{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.kralresim{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto; 
+}
+.giris{
+    text-align: right ;
+}
+.kutu {
+    width: 450px;
+    height: 300px;
+    background-color: #7ff511;
+    margin-top: 150px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+}
+.mainkutu{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: #7ff511; 
+
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+
+}
+.giriş2{
+    background-color: #bbf6fb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    
+    
+}
+
+
+.giris-paneli {
+
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.giris-formu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.giris-formu label {
+    font-weight: bold;
+}
+
+.giris-formu input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.giris-formu button {
+    background-color: #f0ff9a;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.kutuex {
+    width: 100%;
+    height: 600px;
+    background-color: #11f5d3;
+    margin-top: 50px;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+}
+.extrabody{
+    margin: 0;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 200px);
+    background-color: #bbf6fb;
+}
+.kutuhaber{
+    width: 100%;
+    background-color: #7ff511;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    text-align: center;
+    padding: 20px;
+}
+.kutuhaber p {
+    margin: 1px 0;
+}
+.mavisayfa{
+    background-color: #74f5fa;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 100%;
+    right: 20px;
+}
+.resimi{
+    width: 350px;
+    height: 350px;
+}
+.resimialan {
+    display: flex;
+    align-items: center;
+}
+.resim-alani {
+    display: flex;
+    align-items: center;
+}
+.hey2{
+    margin-left: 10;
+}
+.hash{
+    text-align: center;
+}
+.hashbutresim{
+    align-items: center;
+}
+.resimortalama{
+    
+    padding-left: 40%;
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+}
+.hey3{
+    margin-left: -350;
+}
+.yazıortalama{
+    text-align: center;
+}
+.küçül{
+    width: 230px;
+    height: 230px;
+}
+.sosyalmedya{
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+
+}
+.blok{
+    margin-left: 20px;
+
+}
+.büyüt{
+    font-size: 30px;
+}
